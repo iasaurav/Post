@@ -1,4 +1,3 @@
-document.write("<br \/>\r\n    <div id=\"calculate\">Age-Calculate<\/div>\r\n\r\n    <div id=\"age_container\"><span id=\"exact_age\">Age<\/span><\/div>\r\n\r\n  <\/div>");
 
 $(document).ready(function () {
   $("#calculate").click(function () {
