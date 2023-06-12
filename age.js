@@ -29,13 +29,13 @@ $(document).ready(function () {
       $("#exact_age").text("Invalid birthday - Please try again!");
     } else {
       $("#exact_age").html(
-        'You are<br/><span id="age">' +
+        '<span id="age">' +
           year_age +
           " years " +
           month_age +
           " months " +
           day_age +
-          " days</span> old"
+          " days</span>"
       );
     }
   });
